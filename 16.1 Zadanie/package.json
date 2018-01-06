@@ -1,0 +1,16 @@
+{
+  "name": "zadanie161",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "webpack"
+  },
+  "author": "Joanna Cisowska",
+  "license": "ISC"
+}
