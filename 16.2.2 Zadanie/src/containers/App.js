@@ -2,12 +2,22 @@ import React from 'react';
 import uuid from 'uuid';
 import style from './App.css';
 import Title from '../components/Title.js';
+import TodoList from '../components/TodoList.js';
 
 class App extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            data: []
+            data: [{
+				id: 1,
+				text: 'take medicine'
+			}, {
+				id: 2,
+				text: 'go shopping'
+			}, {
+				id: 3,
+				text: 'take care of cat'
+			}]
         };
     }
     addTodo(val){
@@ -28,7 +38,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className={style.TodoApp}>
-				<Title title={this.title} />
+				<Title title={this.title} add={this.state.data.length}/>
 			</div>
 		);
 	}
