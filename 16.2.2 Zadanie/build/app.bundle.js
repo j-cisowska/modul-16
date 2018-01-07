@@ -8555,11 +8555,11 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, "* {\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\nbody {\r\n\tbackground-color: #F5F5F5;\r\n}\r\n\r\n._1yWMblMhcoxIcFRQVWQUoB {\r\n    color: #222;\r\n\ttext-align: center;\r\n\tmargin-top: 25px;\r\n}\r\n", ""]);
+exports.push([module.i, "* {\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\nbody {\r\n\tbackground-color: #F5F5F5;\r\n}\r\n\r\n._28HvppQB0Bu1AHBbOvjPb5 {\r\n    color: #222;\r\n\ttext-align: center;\r\n\tmargin-top: 25px;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
-	"TodoApp": "_1yWMblMhcoxIcFRQVWQUoB"
+	"TodoApp": "_28HvppQB0Bu1AHBbOvjPb5"
 };
 
 /***/ }),
@@ -8665,7 +8665,7 @@ module.exports = function (css) {
 
 
 Object.defineProperty(exports, "__esModule", {
-		value: true
+	value: true
 });
 
 var _react = __webpack_require__(1);
@@ -8679,21 +8679,21 @@ var _Title2 = _interopRequireDefault(_Title);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Title = function Title(props) {
-		return _react2.default.createElement(
-				'div',
-				{ className: _Title2.default.Title },
-				_react2.default.createElement(
-						'h1',
-						null,
-						props.title
-				),
-				_react2.default.createElement(
-						'p',
-						null,
-						'Add task: ',
-						props.add
-				)
-		);
+	return _react2.default.createElement(
+		'div',
+		{ className: _Title2.default.Title },
+		_react2.default.createElement(
+			'h1',
+			null,
+			props.title
+		),
+		_react2.default.createElement(
+			'p',
+			null,
+			'Add task: ',
+			props.add
+		)
+	);
 };
 
 exports.default = Title;
@@ -8738,7 +8738,7 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, "._1gTyUbtrC8kTEwb8dV1zue {\r\n\tcolor: black;\r\n    font-size: 50px;\r\n\tpadding: 10px;\r\n}", ""]);
+exports.push([module.i, "._1gTyUbtrC8kTEwb8dV1zue {\r\n\tcolor: black;\r\n    \tfont-size: 50px;\r\n\tpadding: 10px;\r\n}", ""]);
 
 // exports
 exports.locals = {
